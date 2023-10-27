@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function add7 (num) {
+        //     return num + 7;
+        // }
+
+        let add7 = (num) => num + 7;
+
+        function multiply (num1, num2) {
+            return num1 * num2;
+        } 
+
+        function capitalize(str) {
+            let x = str.toLowerCase();
+            let cap = x.charAt(0).toUpperCase();
+            return cap + x.substring(1);    
+        }
+
+        function lastLetter (str) {
+            return str.charAt(str.length - 1);
+        }
+
+
+        let toAdd = Number(prompt("Give me numba!"));
+        console.log(add7(toAdd));
+        alert(add7(toAdd));  
+
+        // console.log(multiply(10, 2));
+
+        // let toCap = prompt("String please: ");
+        // console.log(capitalize(toCap));
+
+        //    let last = prompt("String: ");
+        //    console.log(lastLetter(last)); 
+
+           
+    </script>
+    
+</body>
+</html>
